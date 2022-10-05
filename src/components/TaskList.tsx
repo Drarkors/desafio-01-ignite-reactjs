@@ -21,7 +21,7 @@ export function TaskList() {
     const newTasks = [...tasks];
 
     newTasks.push({
-      id: Date.now(),
+      id: Math.random(),
       title: newTaskTitle,
       isComplete: false,
     });
